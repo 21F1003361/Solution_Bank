@@ -73,6 +73,18 @@ public class BasicCollection{
 			Collection can be converted to array using toArray()
 			removes element based on predicate interface
 
+			java.util.Collections class provides below useful methods
+				1.filling collection with values
+				2.binarysearch (using comaparable of the collection object or comparator)
+				3.revese
+				4.shuffle
+				5.sort
+
+			Collections thread safety can be at two level , 1. collection level (add , remove element)  2.Object / element level
+			Thread safety can be ensure by
+			    a.Unmodifiable (Fast but read only)
+			    b.Synchronized (Slow and unscalable)
+			    c.Copy on Write (fast but consumes memory)
 
 
 		*/
